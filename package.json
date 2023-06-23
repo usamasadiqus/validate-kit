@@ -1,0 +1,37 @@
+{
+  "name": "validate-kit",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript package for validating user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamasadiqus/validate-kit.git"
+  },
+  "keywords": [
+    "validation",
+    "validate",
+    "validate-kit",
+    "validate kit",
+    "user input",
+    "form validation",
+    "email validation",
+    "phone number validation",
+    "URL validation",
+    "custom validation rules",
+    "input validation",
+    "input validation library",
+    "JavaScript validation",
+    "frontend development",
+    "input validation functions",
+    "input validation utilities"
+  ],
+  "author": "Usama Sadiq <usamasadiq029@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usamasadiqus/validate-kit/issues"
+  },
+  "homepage": "https://github.com/usamasadiqus/validate-kit#readme"
+}
