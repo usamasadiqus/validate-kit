@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/usamasadiqus/validate-kit/issues"
   },
-  "homepage": "https://github.com/usamasadiqus/validate-kit#readme"
+  "homepage": "https://github.com/usamasadiqus/validate-kit#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
