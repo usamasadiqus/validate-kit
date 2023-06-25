@@ -1,6 +1,6 @@
 {
   "name": "validate-kit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight JavaScript package for validating user input",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
