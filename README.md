@@ -42,6 +42,8 @@ Feel free to replace `email` with your desired email address.
 
 You can import the specific validation function you need or import the entire `ValidateKit` class to access all the validation functions.
 
+<br>
+
 ### validateEmail(email: string): boolean
 
 This function validates whether the given email address is in a valid format. It checks if the email matches the pattern `username@domain.extension`.
