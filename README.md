@@ -108,6 +108,8 @@ This function validates whether the given social security number is in a valid f
 
 This function allows you to define and validate custom rules. It takes a value and a rule function as parameters. The rule function should return `true` if the value is valid according to your custom rule, or `false` otherwise.
 
+<br>
+
 Here are some examples of how to use the validateCustomRule function from ValidateKit to create custom validation rules:
 
 Example 1: Validate that a string contains at least one uppercase letter:
