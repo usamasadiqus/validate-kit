@@ -2,9 +2,11 @@
   "name": "validate-kit",
   "version": "1.0.0",
   "description": "A lightweight JavaScript package for validating user input",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -36,5 +38,8 @@
   "homepage": "https://github.com/usamasadiqus/validate-kit#readme",
   "devDependencies": {
     "typescript": "^5.1.3"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
