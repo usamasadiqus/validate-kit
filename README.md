@@ -108,6 +108,44 @@ This function validates whether the given social security number is in a valid f
 
 This function allows you to define and validate custom rules. It takes a value and a rule function as parameters. The rule function should return `true` if the value is valid according to your custom rule, or `false` otherwise.
 
+Here are some examples of how to use the validateCustomRule function from ValidateKit to create custom validation rules:
+
+Example 1: Validate that a string contains at least one uppercase letter:
+
+```shell
+import { ValidateKit } from 'validate-kit';
+
+const value = 'Abcd1234';
+const rule = (value) => /[A-Z]/.test(value);
+
+const isValid = ValidateKit.validateCustomRule(value, rule);
+console.log(isValid); // Output: true
+```
+
+Example 2: Validate that a number is greater than 10:
+
+```shell
+import { ValidateKit } from 'validate-kit';
+
+const value = 15;
+const rule = (value) => value > 10;
+
+const isValid = ValidateKit.validateCustomRule(value, rule);
+console.log(isValid); // Output: true
+```
+
+Example 3: Validate that an array contains at least 3 elements:
+
+```shell
+import { ValidateKit } from 'validate-kit';
+
+const value = [1, 2, 3, 4, 5];
+const rule = (value) => value.length >= 3;
+
+const isValid = ValidateKit.validateCustomRule(value, rule);
+console.log(isValid); // Output: true
+```
+
 <br>
 
 ## License
