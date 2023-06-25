@@ -112,6 +112,8 @@ This function allows you to define and validate custom rules. It takes a value a
 
 Here are some examples of how to use the validateCustomRule function from ValidateKit to create custom validation rules:
 
+<br>
+
 Example 1: Validate that a string contains at least one uppercase letter:
 
 ```shell
