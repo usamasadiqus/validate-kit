@@ -15,6 +15,10 @@ To install the ValidateKit package, you can use npm. Open your terminal and run 
 
 ```shell
 npm install validate-kit
+
+or
+
+yarn add validate-kit
 ```
 
 This command will install the validate-kit package and its dependencies into your project.
